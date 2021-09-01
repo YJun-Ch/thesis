@@ -2,6 +2,7 @@
 echo "DOCS PUSH BAT"
 
 echo "2. Start submitting code to the local repository"
+git rm --cached *
 git add *
  
 echo "3. Commit the changes to the local repository"
